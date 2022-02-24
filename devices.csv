@@ -1,0 +1,2 @@
+INT-WS-PantoRouter, 10.0.0.124, oldOTAPaswword, myNewCoolOTAPassword, INTERLOCK, RF125PS_READER, GRBW, 1, 124816
+DOOR-Quad, 10.0.0.111, someOTAPassword, aDifferentOTAPassword, DOOR, OLD_READER, RGBW, 16, 124816
