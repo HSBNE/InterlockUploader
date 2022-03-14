@@ -11,7 +11,7 @@ Link to PlatformIO Core: https://docs.platformio.org/en/latest/core/index.html
 1. Populate devices.csv (explained later). A copy is kept in the HSBNE Infrastructure 1Password.
 2. Run main.py. The directory to the interlock source code must contain `platformio.ini`
 ```
-> python3 main.py "path/to/interlock/source/directory" "wifiPassword" "hostAddress http://portal.int.hsbne.org" "hostSecret"
+> python3 main.py "path/to/interlock/source/directory" "wifiSSID" "wifiPassword" "hostAddress (e.g. http://portal.int.hsbne.org)" "hostSecret"
 ```
 ### devices.csv
 The build flags for each door/interlock are specified in `devices.csv`. Items are delineated by a comma `,`. Surrounding spaces are ignored. Rows are separated by a newline `\n`.
